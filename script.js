@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function createPromise(index) {
-  let time = Math.random()*(4000-1000)+1000;
+  let time = Math.random()*(2000-1000)+1000;
 	return new Promise((resolve, reject)=>{
 		setTimeout(()=>{
 			resolve([index, time/ 1000]);
