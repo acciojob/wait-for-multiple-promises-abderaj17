@@ -15,7 +15,7 @@ Promise.all(promises).then((values) => {
     let table = document.getElementById('output');
 
     // Remove the 'Loading...' row
-    document.getElementById('loadingRow').remove();
+    document.getElementById('loading').remove();
 
     let totalTime = 0;
 
